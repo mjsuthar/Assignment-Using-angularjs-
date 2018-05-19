@@ -1,0 +1,74 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1,p{
+	margin-left: 70px;
+}
+
+.tab{
+	background-color: #FFA500;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100px;
+}
+
+.tab button{
+	background-color: inherit;
+	float: left;
+	border: 1px solid white;
+	cursor: pointer;
+	padding: 3px 10px;
+	transition: 0.3s;
+	font-size: 17px;
+	color: white;
+	margin-top: 55px;
+}
+
+
+
+.firstBTN {
+	margin-left:75px;
+	margin-right:35px;
+}
+
+button{
+	
+	/* margin-left: 100px; */
+
+	border-radius: 5px;
+	
+}
+.tab button:hover{
+	background-color: #FF8C00;
+}
+
+.tab button.active{
+	background-color: #FF8C00;
+}
+
+.tabcontent {
+	display: none;
+}
+
+label{
+	margin-top: 20px;
+}
+
+form {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.send{
+	background-color: inherit;
+	border: 1px solid #FF8C00;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	
+	text-align: center;
+	color: #FF8C00;
+}
